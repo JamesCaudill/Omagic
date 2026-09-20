@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "ben.omagic",
+  "name": "Omagic",
+  "version": "1.0.0",
+  "author": "ben",
+  "license": "MIT",
+  "description": "Apple Magic Keyboard and Trackpad: Bluetooth, battery, function keys, and Hyprland trackpad settings.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "activation": "on-demand",
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Omagic",
+    "description": "Apple Magic Keyboard and Trackpad: Bluetooth, battery, function keys, and Hyprland trackpad settings.",
+    "category": "Hardware",
+    "aliases": [
+      "omagic",
+      "apple",
+      "magic",
+      "trackpad",
+      "keyboard"
+    ],
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {},
+    "schema": []
+  }
+}
