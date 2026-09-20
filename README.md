@@ -4,6 +4,10 @@ A small [Omarchy](https://omarchy.org/) bar plugin for Apple Magic Keyboard and 
 
 Python standard library only. No background daemon or root access is needed for device status and trackpad settings.
 
+![Omagic Devices, Trackpad, and Gestures panels](preview.png)
+
+Preview uses sample device data. Colors follow your Omarchy theme.
+
 ## Requirements
 
 - Omarchy with its Quickshell plugin system and **Hyprland 0.56+ Lua configuration**. The old Waybar / `hyprland.conf` setup is not supported.
